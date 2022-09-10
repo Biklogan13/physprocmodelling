@@ -1,0 +1,6 @@
+/home/ilia_krylovskiy/CLionProjects/physprocmodelling/cmake-build-debug/CMakeFiles/physprocmodelling.dir
+/home/ilia_krylovskiy/CLionProjects/physprocmodelling/cmake-build-debug/CMakeFiles/10.09_3.dir
+/home/ilia_krylovskiy/CLionProjects/physprocmodelling/cmake-build-debug/CMakeFiles/10.09_8.dir
+/home/ilia_krylovskiy/CLionProjects/physprocmodelling/cmake-build-debug/CMakeFiles/10.09_9.dir
+/home/ilia_krylovskiy/CLionProjects/physprocmodelling/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ilia_krylovskiy/CLionProjects/physprocmodelling/cmake-build-debug/CMakeFiles/rebuild_cache.dir

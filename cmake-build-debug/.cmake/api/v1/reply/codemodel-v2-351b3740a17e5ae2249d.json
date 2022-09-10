@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "physprocmodelling",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "10.09_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10.09_3-Debug-42c97a2e056afcbb1547.json",
+					"name" : "10.09_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10.09_8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10.09_8-Debug-1899231c6cf1bb6662cc.json",
+					"name" : "10.09_8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10.09_9::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10.09_9-Debug-4b1fd3b5555d7cf71b1f.json",
+					"name" : "10.09_9",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "physprocmodelling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-physprocmodelling-Debug-64db2bd3e0ce9425c4a8.json",
+					"name" : "physprocmodelling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ilia_krylovskiy/CLionProjects/physprocmodelling/cmake-build-debug",
+		"source" : "/home/ilia_krylovskiy/CLionProjects/physprocmodelling"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
