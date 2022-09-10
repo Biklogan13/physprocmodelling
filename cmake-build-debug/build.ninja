@@ -168,6 +168,38 @@ build 10.09_9: CXX_EXECUTABLE_LINKER__10.2e09_9_Debug CMakeFiles/10.09_9.dir/10.
   TARGET_FILE = 10.09_9
   TARGET_PDB = 10.09_9.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target segfaultGenerator
+
+
+#############################################
+# Order-only phony target for segfaultGenerator
+
+build cmake_object_order_depends_target_segfaultGenerator: phony || CMakeFiles/segfaultGenerator.dir
+
+build CMakeFiles/segfaultGenerator.dir/segfaultGenerator.cpp.o: CXX_COMPILER__segfaultGenerator_Debug /home/ilia_krylovskiy/CLionProjects/physprocmodelling/segfaultGenerator.cpp || cmake_object_order_depends_target_segfaultGenerator
+  DEP_FILE = CMakeFiles/segfaultGenerator.dir/segfaultGenerator.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I/home/ilia_krylovskiy/CLionProjects/physprocmodelling/.
+  OBJECT_DIR = CMakeFiles/segfaultGenerator.dir
+  OBJECT_FILE_DIR = CMakeFiles/segfaultGenerator.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target segfaultGenerator
+
+
+#############################################
+# Link the executable segfaultGenerator
+
+build segfaultGenerator: CXX_EXECUTABLE_LINKER__segfaultGenerator_Debug CMakeFiles/segfaultGenerator.dir/segfaultGenerator.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/segfaultGenerator.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = segfaultGenerator
+  TARGET_PDB = segfaultGenerator.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -203,7 +235,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/ilia_krylovskiy/CLionProjects/physprocmodelling/cmake-build-debug
 
-build all: phony physprocmodelling 10.09_3 10.09_8 10.09_9
+build all: phony physprocmodelling 10.09_3 10.09_8 10.09_9 segfaultGenerator
 
 # =============================================================================
 # Built-in targets
